@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+/* GENERALI */
+.mr-20{
+  margin-right: 20px;
+}
+.pr-1{
+  padding-right: 1rem;
+}
+.pl-1{
+  padding-left: 1rem;
+}
+/* /GENERALI/ */
+
+
+/* HEADER */
+header{
+  background-image: url('../img/helbiz.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  color: white;
+  position: relative;
+}
+header a{
+  color: white;
+}
+
+nav{
+  height: 80px;
+  line-height: 80px;
+}
+nav a{
+  padding: 0 10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.header-menu{
+  text-align: right;
+}
+
+.header-menu, .header-langs{
+  font-size: 0.55rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.header-langs li:not(:last-child) a{
+  border-right: 1px solid white;
+}
+
+.list-inline li{
+  list-style: none;
+  display: inline-block;
+}
+
+.hero-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.hero-text h1{
+  font-size: 2.5em;
+}
+.hero-text p{
+  margin: 20px 0 30px 0;
+}
+.hero-text img{
+  width: 150px;
+}
+/* /HEADER/ */
+
+
+/* MAIN */
+#models{
+  padding: 2em;
+}
+#models .card{
+  text-align: center;
+  background-color: #fafafa;
+}
+#models .card h2{
+  padding-top: 80px;
+}
+#models .card img{
+  max-width: 100%;
+}
+/* /MAIN/ */
