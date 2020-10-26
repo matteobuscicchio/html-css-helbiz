@@ -9,6 +9,15 @@ body{
 }
 
 /* GENERALI */
+.text-align-r{
+  text-align: right;
+}
+.text-align-c{
+  text-align: center;
+}
+.text-align-l{
+  text-align: left;
+}
 .mr-20{
   margin-right: 20px;
 }
@@ -20,6 +29,10 @@ body{
 }
 .helbiz-svg{
   width: 12rem;
+}
+.pt-pb{
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 /* /GENERALI/ */
 
@@ -88,6 +101,7 @@ a{
 
 
 /* MAIN */
+/* top */
 #models{
   padding: 2em;
 }
@@ -101,8 +115,25 @@ a{
 #models .card img{
   max-width: 100%;
 }
-#models .card p{
-  padding-top: 20px;
-  padding-bottom: 20px;
+/* /top/ */
+
+/* mid */
+#work{
+  background-image: url('../img/banner-helbiz.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
 }
+
+#mid-img{
+  height: 600px;
+}
+/* /mid/ */
+
+/* lower */
+#choose-us{
+  background-color: purple;
+  height: 500px;
+}
+/* /lower/ */
 /* /MAIN/ */
