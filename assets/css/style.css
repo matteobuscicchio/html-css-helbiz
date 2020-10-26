@@ -123,22 +123,76 @@ a{
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
+  margin-bottom: 500px;
 }
 #work div{
   transform: translateY(60%);
 }
 
 #mid-img{
-  margin: 0 auto;
   height: 500px;
-  transform: translateY(-130%);
+  transform: translateY(-140%);
 }
 /* /mid/ */
 
 /* lower */
 #choose-us{
-  background-color: white;
-  height: 500px;
+  color: white;
+}
+.smart-mob{
+  background-image: url('../img/scooter-green.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  margin-bottom: 20px;
+}
+.smart-mob div{
+  margin-top: 10%;
+}
+.smart-mob h2{
+  font-size: 2rem;
+  line-height: 1.5em;
+}
+.smart-mob a{
+  color: white;
+}
+
+.container-utility{
+  margin-bottom: 20px;
+}
+.container-utility a{
+  color: white;
+}
+.get-app{
+  background-color: #575757;
+  height: 400px;
+}
+.get-app img{
+  margin-top: 10px;
+  height: 285px;
+}
+
+.find-us{
+  width: 90%;
+  background-image: url('../img/firenze.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
 }
 /* /lower/ */
 /* /MAIN/ */
+
+/* FOOTER */
+footer{
+  color: white;
+  background-color: black;
+}
+.footer-top{
+  height: 500px;
+  position: relative;
+}
+
+.footer-download img{
+  width: 150px;
+}
+/* /FOOTER/ */
