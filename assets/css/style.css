@@ -124,15 +124,19 @@ a{
   background-size: cover;
   height: 500px;
 }
+#work div{
+  transform: translateY(60%);
+}
 
 #mid-img{
-  height: 600px;
+  height: 500px;
+  transform: translateY(-130%);
 }
 /* /mid/ */
 
 /* lower */
 #choose-us{
-  background-color: purple;
+  background-color: white;
   height: 500px;
 }
 /* /lower/ */
